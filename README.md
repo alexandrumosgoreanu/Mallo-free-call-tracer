@@ -5,7 +5,11 @@
 ## Descriere 
 
 Scopul proiectului este de a realiza un modul de kernel pentru Linux(scris in limbajul C) care poate detecta apelul functiilor malloc/free de catre toate procesele care ruleaza pe sistemul de operare prin intermediul unui "kprobe".
-Fata de sursele din bibliografie, intentionez sa implementez si o mini interfata grafica pe care sa afisez diferite statistici legate de alocarea memoriei(se poate ca datele sa fie exportate, iar afisarea sa fie facuta in Grafana), precum si detectarea adresei de memorie(virtuala) vizata de apelul acestor functii.
+Fata de sursele din bibliografie, intentionez sa implementez si:
+- o mini interfata grafica pe care sa afisez diferite statistici legate de alocarea memoriei(se poate ca datele sa fie exportate, iar afisarea sa fie facuta in Grafana, to be continued..)
+- cantitatea de memorie alocata/eliberata
+- detectarea adresei de memorie(virtuala) vizata de apelul acestor functii
+ 
 
 
 
